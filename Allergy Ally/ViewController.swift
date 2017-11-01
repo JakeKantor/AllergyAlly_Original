@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController:  UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate {
+    //All the stuff for the dropdown text
     
     @IBOutlet var textbox1: UITextField!
     @IBOutlet var textbox2: UITextField!
@@ -17,7 +18,7 @@ class ViewController:  UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     @IBOutlet var dropdown2: UIPickerView!
     
     var cities = ["Miami","New York City","Washington D.C"]
-    var cuisine = ["Chinese","Mexican","Italian","Greeek","French","Thai","Spanish","Indian"]
+    var cuisine = ["Chinese","Mexican","Italian","Greeek","French","Thai","Spanish","Indian","American"]
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
@@ -75,19 +76,26 @@ class ViewController:  UIViewController, UIPickerViewDelegate, UIPickerViewDataS
             self.dropdown2.isHidden = false
             
         }
+        //Adjusts the checkboxes Width and their Height
         
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        //Make Keybard disapear
+        self.textbox1.delegate = self
+        self.textbox2.delegate = self
+
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
+    //Hide keyboard when user touches
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
 }
 
