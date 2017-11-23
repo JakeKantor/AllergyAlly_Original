@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import MapKit
 
 class ViewController:  UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate {
+    //Mapkit view for Anthony Coal Fired Pizza
+    
     //All the stuff for the dropdown text
     
     @IBOutlet var textbox1: UITextField!
@@ -18,7 +21,7 @@ class ViewController:  UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     @IBOutlet var dropdown2: UIPickerView!
     
     var cities = ["Miami","New York City","Washington D.C"]
-    var cuisine = ["Chinese","Mexican","Italian","Greeek","French","Thai","Spanish","Indian","American"]
+    var cuisine = ["Chinese","Mexican","Italian","Indian","American"]
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1

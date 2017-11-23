@@ -15,13 +15,20 @@
 		2B4EB3411FA6B2330082A548 /* Allergy_AllyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4EB3401FA6B2330082A548 /* Allergy_AllyUITests.swift */; };
 		2B4EB34F1FA6B2A40082A548 /* Screen Shot 2017-10-27 at 12.13.41 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4EB34E1FA6B2A40082A548 /* Screen Shot 2017-10-27 at 12.13.41 PM.png */; };
 		2B4EB3501FA6B2A40082A548 /* Screen Shot 2017-10-27 at 12.13.41 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4EB34E1FA6B2A40082A548 /* Screen Shot 2017-10-27 at 12.13.41 PM.png */; };
-		2B4EB36D1FA75CB60082A548 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4EB3661FA75CB50082A548 /* BEMAnimationManager.m */; };
-		2B4EB36E1FA75CB60082A548 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4EB3671FA75CB50082A548 /* BEMPathManager.m */; };
-		2B4EB36F1FA75CB60082A548 /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4EB3681FA75CB50082A548 /* BEMCheckBoxGroup.m */; };
-		2B4EB3701FA75CB60082A548 /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4EB36A1FA75CB50082A548 /* BEMCheckBox.m */; };
 		2B4EB37A1FA7ACFD0082A548 /* icons8-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4EB3791FA7ACFD0082A548 /* icons8-back.png */; };
 		2B4EB37C1FA8EA640082A548 /* Screen Shot 2017-10-31 at 1.28.34 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4EB37B1FA8EA640082A548 /* Screen Shot 2017-10-31 at 1.28.34 PM.png */; };
 		2B4EB3AE1FA98C470082A548 /* icons8-Home-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4EB3AD1FA98C460082A548 /* icons8-Home-25.png */; };
+		2B9952E01FB0A0E6006C3548 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9952D91FB0A0E6006C3548 /* BEMAnimationManager.m */; };
+		2B9952E11FB0A0E6006C3548 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9952DA1FB0A0E6006C3548 /* BEMPathManager.m */; };
+		2B9952E21FB0A0E6006C3548 /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9952DB1FB0A0E6006C3548 /* BEMCheckBoxGroup.m */; };
+		2B9952E31FB0A0E6006C3548 /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9952DD1FB0A0E6006C3548 /* BEMCheckBox.m */; };
+		2B9952E51FB10019006C3548 /* Coal Fired Pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9952E41FB10018006C3548 /* Coal Fired Pizza.png */; };
+		2B9952E71FB2350C006C3548 /* Red robin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9952E61FB23507006C3548 /* Red robin.png */; };
+		2B9952E91FB23A40006C3548 /* Chillis.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9952E81FB23A3F006C3548 /* Chillis.png */; };
+		2B9952EB1FB23AE9006C3548 /* flanigans.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9952EA1FB23AE3006C3548 /* flanigans.png */; };
+		2B9952ED1FB23C15006C3548 /* yarbird.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9952EC1FB23C13006C3548 /* yarbird.png */; };
+		2B9952EF1FB23CCC006C3548 /* white star.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9952EE1FB23CCB006C3548 /* white star.png */; };
+		2B9952F11FB23D7F006C3548 /* mellow mushroom.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9952F01FB23D7E006C3548 /* mellow mushroom.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,17 +53,24 @@
 		2B4EB3401FA6B2330082A548 /* Allergy_AllyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Allergy_AllyUITests.swift; sourceTree = "<group>"; };
 		2B4EB3421FA6B2330082A548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B4EB34E1FA6B2A40082A548 /* Screen Shot 2017-10-27 at 12.13.41 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-10-27 at 12.13.41 PM.png"; sourceTree = "<group>"; };
-		2B4EB3651FA75CB50082A548 /* BEMCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBox.h; sourceTree = "<group>"; };
-		2B4EB3661FA75CB50082A548 /* BEMAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMAnimationManager.m; sourceTree = "<group>"; };
-		2B4EB3671FA75CB50082A548 /* BEMPathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMPathManager.m; sourceTree = "<group>"; };
-		2B4EB3681FA75CB50082A548 /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBoxGroup.m; sourceTree = "<group>"; };
-		2B4EB3691FA75CB50082A548 /* BEMAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAnimationManager.h; sourceTree = "<group>"; };
-		2B4EB36A1FA75CB50082A548 /* BEMCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBox.m; sourceTree = "<group>"; };
-		2B4EB36B1FA75CB50082A548 /* BEMPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMPathManager.h; sourceTree = "<group>"; };
-		2B4EB36C1FA75CB50082A548 /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBoxGroup.h; sourceTree = "<group>"; };
 		2B4EB3791FA7ACFD0082A548 /* icons8-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-back.png"; sourceTree = "<group>"; };
 		2B4EB37B1FA8EA640082A548 /* Screen Shot 2017-10-31 at 1.28.34 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-10-31 at 1.28.34 PM.png"; sourceTree = "<group>"; };
 		2B4EB3AD1FA98C460082A548 /* icons8-Home-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-Home-25.png"; sourceTree = "<group>"; };
+		2B9952D81FB0A0E6006C3548 /* BEMCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBox.h; sourceTree = "<group>"; };
+		2B9952D91FB0A0E6006C3548 /* BEMAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMAnimationManager.m; sourceTree = "<group>"; };
+		2B9952DA1FB0A0E6006C3548 /* BEMPathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMPathManager.m; sourceTree = "<group>"; };
+		2B9952DB1FB0A0E6006C3548 /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+		2B9952DC1FB0A0E6006C3548 /* BEMAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAnimationManager.h; sourceTree = "<group>"; };
+		2B9952DD1FB0A0E6006C3548 /* BEMCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBox.m; sourceTree = "<group>"; };
+		2B9952DE1FB0A0E6006C3548 /* BEMPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMPathManager.h; sourceTree = "<group>"; };
+		2B9952DF1FB0A0E6006C3548 /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		2B9952E41FB10018006C3548 /* Coal Fired Pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Coal Fired Pizza.png"; sourceTree = "<group>"; };
+		2B9952E61FB23507006C3548 /* Red robin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red robin.png"; sourceTree = "<group>"; };
+		2B9952E81FB23A3F006C3548 /* Chillis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chillis.png; sourceTree = "<group>"; };
+		2B9952EA1FB23AE3006C3548 /* flanigans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flanigans.png; sourceTree = "<group>"; };
+		2B9952EC1FB23C13006C3548 /* yarbird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yarbird.png; sourceTree = "<group>"; };
+		2B9952EE1FB23CCB006C3548 /* white star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white star.png"; sourceTree = "<group>"; };
+		2B9952F01FB23D7E006C3548 /* mellow mushroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mellow mushroom.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +101,13 @@
 				2B4EB3791FA7ACFD0082A548 /* icons8-back.png */,
 				2B4EB37B1FA8EA640082A548 /* Screen Shot 2017-10-31 at 1.28.34 PM.png */,
 				2B4EB3AD1FA98C460082A548 /* icons8-Home-25.png */,
+				2B9952E41FB10018006C3548 /* Coal Fired Pizza.png */,
+				2B9952E61FB23507006C3548 /* Red robin.png */,
+				2B9952E81FB23A3F006C3548 /* Chillis.png */,
+				2B9952EA1FB23AE3006C3548 /* flanigans.png */,
+				2B9952EC1FB23C13006C3548 /* yarbird.png */,
+				2B9952EE1FB23CCB006C3548 /* white star.png */,
+				2B9952F01FB23D7E006C3548 /* mellow mushroom.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +123,7 @@
 		2B4EB32A1FA6B2330082A548 /* Allergy Ally */ = {
 			isa = PBXGroup;
 			children = (
-				2B4EB3641FA75CB50082A548 /* Classes */,
+				2B9952D71FB0A0E6006C3548 /* Classes */,
 				2B4EB32B1FA6B2330082A548 /* AppDelegate.swift */,
 				2B4EB32D1FA6B2330082A548 /* ViewController.swift */,
 				2B4EB32F1FA6B2330082A548 /* Main.storyboard */,
@@ -122,20 +143,20 @@
 			path = "Allergy AllyUITests";
 			sourceTree = "<group>";
 		};
-		2B4EB3641FA75CB50082A548 /* Classes */ = {
+		2B9952D71FB0A0E6006C3548 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2B4EB3651FA75CB50082A548 /* BEMCheckBox.h */,
-				2B4EB3661FA75CB50082A548 /* BEMAnimationManager.m */,
-				2B4EB3671FA75CB50082A548 /* BEMPathManager.m */,
-				2B4EB3681FA75CB50082A548 /* BEMCheckBoxGroup.m */,
-				2B4EB3691FA75CB50082A548 /* BEMAnimationManager.h */,
-				2B4EB36A1FA75CB50082A548 /* BEMCheckBox.m */,
-				2B4EB36B1FA75CB50082A548 /* BEMPathManager.h */,
-				2B4EB36C1FA75CB50082A548 /* BEMCheckBoxGroup.h */,
+				2B9952D81FB0A0E6006C3548 /* BEMCheckBox.h */,
+				2B9952D91FB0A0E6006C3548 /* BEMAnimationManager.m */,
+				2B9952DA1FB0A0E6006C3548 /* BEMPathManager.m */,
+				2B9952DB1FB0A0E6006C3548 /* BEMCheckBoxGroup.m */,
+				2B9952DC1FB0A0E6006C3548 /* BEMAnimationManager.h */,
+				2B9952DD1FB0A0E6006C3548 /* BEMCheckBox.m */,
+				2B9952DE1FB0A0E6006C3548 /* BEMPathManager.h */,
+				2B9952DF1FB0A0E6006C3548 /* BEMCheckBoxGroup.h */,
 			);
 			name = Classes;
-			path = "../../../BEMCheckBox-master/Classes";
+			path = "../../BEMCheckBox-master/Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,11 +244,18 @@
 			files = (
 				2B4EB34F1FA6B2A40082A548 /* Screen Shot 2017-10-27 at 12.13.41 PM.png in Resources */,
 				2B4EB3361FA6B2330082A548 /* LaunchScreen.storyboard in Resources */,
+				2B9952E71FB2350C006C3548 /* Red robin.png in Resources */,
 				2B4EB37C1FA8EA640082A548 /* Screen Shot 2017-10-31 at 1.28.34 PM.png in Resources */,
+				2B9952EB1FB23AE9006C3548 /* flanigans.png in Resources */,
 				2B4EB3331FA6B2330082A548 /* Assets.xcassets in Resources */,
 				2B4EB3AE1FA98C470082A548 /* icons8-Home-25.png in Resources */,
+				2B9952E91FB23A40006C3548 /* Chillis.png in Resources */,
 				2B4EB37A1FA7ACFD0082A548 /* icons8-back.png in Resources */,
+				2B9952E51FB10019006C3548 /* Coal Fired Pizza.png in Resources */,
+				2B9952F11FB23D7F006C3548 /* mellow mushroom.png in Resources */,
 				2B4EB3311FA6B2330082A548 /* Main.storyboard in Resources */,
+				2B9952ED1FB23C15006C3548 /* yarbird.png in Resources */,
+				2B9952EF1FB23CCC006C3548 /* white star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,10 +276,10 @@
 			files = (
 				2B4EB32E1FA6B2330082A548 /* ViewController.swift in Sources */,
 				2B4EB32C1FA6B2330082A548 /* AppDelegate.swift in Sources */,
-				2B4EB36D1FA75CB60082A548 /* BEMAnimationManager.m in Sources */,
-				2B4EB3701FA75CB60082A548 /* BEMCheckBox.m in Sources */,
-				2B4EB36F1FA75CB60082A548 /* BEMCheckBoxGroup.m in Sources */,
-				2B4EB36E1FA75CB60082A548 /* BEMPathManager.m in Sources */,
+				2B9952E01FB0A0E6006C3548 /* BEMAnimationManager.m in Sources */,
+				2B9952E31FB0A0E6006C3548 /* BEMCheckBox.m in Sources */,
+				2B9952E21FB0A0E6006C3548 /* BEMCheckBoxGroup.m in Sources */,
+				2B9952E11FB0A0E6006C3548 /* BEMPathManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
