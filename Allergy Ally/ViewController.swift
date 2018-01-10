@@ -89,6 +89,9 @@ class ViewController:  UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         //Make Keybard disapear
         self.textbox1.delegate = self
         self.textbox2.delegate = self
+        
+        
+        
 
     }
     
