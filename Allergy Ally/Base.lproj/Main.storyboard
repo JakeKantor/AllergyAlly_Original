@@ -92,13 +92,6 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hS8-3U-mZo" customClass="BEMCheckBox">
                                 <rect key="frame" x="24" y="278" width="56" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r2K-mG-woK" customClass="UIbut">
-                                        <rect key="frame" x="0.0" y="0.0" width="56" height="56"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="1"/>
-                                    </button>
-                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jaA-lq-gI1" customClass="BEMCheckBox">
@@ -209,7 +202,7 @@
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shellfish" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NKX-dB-DvC">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Soy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NKX-dB-DvC">
                                 <rect key="frame" x="245" y="558" width="71" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -243,6 +236,16 @@
                     <tabBarItem key="tabBarItem" systemItem="search" id="kr4-vW-AFo"/>
                     <navigationItem key="navigationItem" id="Vpz-Dy-w4w"/>
                     <connections>
+                        <outlet property="DAIRY" destination="jaA-lq-gI1" id="nbx-5J-APY"/>
+                        <outlet property="EGGS" destination="IiG-lF-mkW" id="n2V-ac-FeY"/>
+                        <outlet property="FISH" destination="DAP-yj-qg5" id="JDn-4f-G65"/>
+                        <outlet property="GLUTEN" destination="O0N-RA-oEF" id="0iM-7q-p9f"/>
+                        <outlet property="PEANUT" destination="hS8-3U-mZo" id="RXK-pW-zpJ"/>
+                        <outlet property="SESAME" destination="Fz6-Fw-5w7" id="xVB-oR-CUe"/>
+                        <outlet property="SHELLFISH" destination="h0z-iS-q7B" id="fcR-I8-M3N"/>
+                        <outlet property="SOY" destination="i3m-m9-UW1" id="ABN-1U-uyX"/>
+                        <outlet property="TREENUTS" destination="8nr-D5-TH2" id="mAn-QV-sTb"/>
+                        <outlet property="WHEAT" destination="1Xj-v6-Jnl" id="j3U-8G-cOy"/>
                         <outlet property="dropdown1" destination="WYN-8y-joD" id="tw1-bl-XXF"/>
                         <outlet property="dropdown2" destination="hG4-JY-uZS" id="swb-ZW-6xu"/>
                         <outlet property="textbox1" destination="uFN-JY-yoF" id="70a-Ax-kJN"/>
@@ -816,6 +819,7 @@
         <image name="yarbird.png" width="296" height="349"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="OAt-0d-rL4"/>
+        <segue reference="Cdf-7b-c6p"/>
+        <segue reference="Ja1-fM-obs"/>
     </inferredMetricsTieBreakers>
 </document>

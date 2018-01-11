@@ -29,6 +29,7 @@
 		2B9952ED1FB23C15006C3548 /* yarbird.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9952EC1FB23C13006C3548 /* yarbird.png */; };
 		2B9952EF1FB23CCC006C3548 /* white star.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9952EE1FB23CCB006C3548 /* white star.png */; };
 		2B9952F11FB23D7F006C3548 /* mellow mushroom.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9952F01FB23D7E006C3548 /* mellow mushroom.png */; };
+		2BECBDAF200641EF00AF5604 /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BECBDAE200641EF00AF5604 /* SelectorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		2B9952EC1FB23C13006C3548 /* yarbird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yarbird.png; sourceTree = "<group>"; };
 		2B9952EE1FB23CCB006C3548 /* white star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white star.png"; sourceTree = "<group>"; };
 		2B9952F01FB23D7E006C3548 /* mellow mushroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mellow mushroom.png"; sourceTree = "<group>"; };
+		2BECBDAE200641EF00AF5604 /* SelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				2B9952D71FB0A0E6006C3548 /* Classes */,
 				2B4EB32B1FA6B2330082A548 /* AppDelegate.swift */,
 				2B4EB32D1FA6B2330082A548 /* ViewController.swift */,
+				2BECBDAE200641EF00AF5604 /* SelectorViewController.swift */,
 				2B4EB32F1FA6B2330082A548 /* Main.storyboard */,
 				2B4EB3321FA6B2330082A548 /* Assets.xcassets */,
 				2B4EB3341FA6B2330082A548 /* LaunchScreen.storyboard */,
@@ -278,6 +281,7 @@
 				2B4EB32C1FA6B2330082A548 /* AppDelegate.swift in Sources */,
 				2B9952E01FB0A0E6006C3548 /* BEMAnimationManager.m in Sources */,
 				2B9952E31FB0A0E6006C3548 /* BEMCheckBox.m in Sources */,
+				2BECBDAF200641EF00AF5604 /* SelectorViewController.swift in Sources */,
 				2B9952E21FB0A0E6006C3548 /* BEMCheckBoxGroup.m in Sources */,
 				2B9952E11FB0A0E6006C3548 /* BEMPathManager.m in Sources */,
 			);

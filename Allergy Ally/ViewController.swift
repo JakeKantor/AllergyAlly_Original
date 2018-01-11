@@ -10,6 +10,27 @@ import UIKit
 import MapKit
 
 class ViewController:  UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate {
+    //Checkbox bottons
+    @IBOutlet var PEANUT: UIControl!
+    
+    @IBOutlet var DAIRY: UIControl!
+    
+    @IBOutlet var WHEAT: UIControl!
+    
+    @IBOutlet var FISH: UIControl!
+    
+    @IBOutlet var SESAME: UIControl!
+    
+    @IBOutlet var TREENUTS: UIControl!
+    
+    @IBOutlet var EGGS: UIControl!
+    
+    @IBOutlet var GLUTEN: UIControl!
+    
+    @IBOutlet var SHELLFISH: UIControl!
+    
+    @IBOutlet var SOY: UIControl!
+   
     //Mapkit view for Anthony Coal Fired Pizza
     
     //All the stuff for the dropdown text
