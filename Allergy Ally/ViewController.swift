@@ -6,6 +6,7 @@
 //  Copyright © 2017 Gulliver Students. All rights reserved.
 //
 
+
 import UIKit
 import MapKit
 
@@ -30,6 +31,73 @@ class ViewController:  UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     @IBOutlet var SHELLFISH: UIControl!
     
     @IBOutlet var SOY: UIControl!
+    
+    
+    @IBAction func peanutsButton(_ sender: Any) {
+        print("peanuts worked")
+        peanutsIsPressed = true;
+    }
+    
+    @IBAction func treeNutsButton(_ sender: Any) {
+        treeNutsIsPressed = true;
+    }
+    
+    @IBAction func dairyButton(_ sender: Any) {
+        dairyIsPressed = true;
+    }
+    
+    @IBAction func eggsButton(_ sender: Any) {
+        eggsIsPressed = true;
+    }
+    
+    
+    @IBAction func wheatButton(_ sender: Any) {
+        wheatIsPressed = true;
+    }
+    
+    @IBAction func glutenButton(_ sender: Any) {
+        glutenIsPressed = true;
+    }
+    
+    @IBAction func fishButton(_ sender: Any) {
+        fishIsPressed = true;
+    }
+    
+    @IBAction func shellfishButton(_ sender: Any) {
+        shellfishIsPressed = true;
+    }
+    
+    @IBAction func sesameButton(_ sender: Any) {
+        sesameIsPressed = true;
+    }
+    
+    @IBAction func soyButton(_ sender: Any) {
+        soyIsPressed = true;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
    
     //Mapkit view for Anthony Coal Fired Pizza
     
@@ -40,6 +108,17 @@ class ViewController:  UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     
     @IBOutlet var dropdown1: UIPickerView!
     @IBOutlet var dropdown2: UIPickerView!
+    
+    var peanutsIsPressed = false;
+    var treeNutsIsPressed = false;
+    var dairyIsPressed = false;
+    var eggsIsPressed = false;
+    var wheatIsPressed = false;
+    var glutenIsPressed = false;
+    var fishIsPressed = false;
+    var shellfishIsPressed = false;
+    var sesameIsPressed = false;
+    var soyIsPressed = false;
     
     var cities = ["Miami","New York City","Washington D.C"]
     var cuisine = ["Chinese","Mexican","Italian","Indian","American"]
@@ -115,6 +194,61 @@ class ViewController:  UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         
 
     }
+    
+    
+//    @IBAction func peanutsButton(_ sender: Any) {
+//        peanutsIsPressed = true;
+//
+//    }
+//
+//    @IBAction func treeNutsButton(_ sender: Any) {
+//        treeNutsIsPressed = true;
+//
+//    }
+//
+//    @IBAction func dairyButton(_ sender: Any) {
+//        dairyIsPressed = true;
+//    }
+//
+//    @IBAction func eggsButton(_ sender: Any) {
+//        eggsIsPressed = true;
+//    }
+//
+//    @IBAction func wheatButton(_ sender: Any) {
+//        wheatIsPressed = true;
+//    }
+//
+//    @IBAction func glutenButton(_ sender: Any) {
+//        glutenIsPressed = true;
+//    }
+//
+//    @IBAction func fishButton(_ sender: Any) {
+//        fishIsPressed = true;
+//    }
+//
+//    @IBAction func shellfishButton(_ sender: Any) {
+//        shellfishIsPressed = true;
+//    }
+//
+//    @IBAction func sesameButton(_ sender: Any) {
+//        sesameIsPressed = true;
+//    }
+//
+//    @IBAction func soyButton(_ sender: Any) {
+//        soyIsPressed = true;
+//    }
+//
+//
+//
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
