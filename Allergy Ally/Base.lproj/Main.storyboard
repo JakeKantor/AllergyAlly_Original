@@ -33,14 +33,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Where do you live?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBD-1t-qFe">
-                                <rect key="frame" x="93" y="94" width="188" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="21"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What cuisine are you in the mood for?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATj-WS-J2u">
-                                <rect key="frame" x="13" y="158" width="348" height="74"/>
+                                <rect key="frame" x="93" y="61" width="188" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="21"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -63,32 +56,6 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="kQh-6l-FYN"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nl7-LO-IaS">
-                                <rect key="frame" x="104" y="207" width="167" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="nvs-qJ-UI6"/>
-                                </connections>
-                            </textField>
-                            <pickerView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WYN-8y-joD">
-                                <rect key="frame" x="93" y="94" width="167" height="128"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="gCu-hq-oyI"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="YdY-r7-R6r"/>
-                                </connections>
-                            </pickerView>
-                            <pickerView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hG4-JY-uZS">
-                                <rect key="frame" x="102" y="158" width="167" height="128"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="JVl-Og-F0j"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Ixc-u1-HMb"/>
-                                </connections>
-                            </pickerView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hS8-3U-mZo" customClass="BEMCheckBox">
                                 <rect key="frame" x="24" y="278" width="56" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -259,12 +226,20 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Find the Resteraunts that Suit You" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BDd-cc-UWd">
-                                <rect key="frame" x="3" y="61" width="414" height="74"/>
+                                <rect key="frame" x="3" y="31" width="414" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="24"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <pickerView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WYN-8y-joD">
+                                <rect key="frame" x="88" y="94" width="167" height="128"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="gCu-hq-oyI"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="YdY-r7-R6r"/>
+                                </connections>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -283,9 +258,7 @@
                         <outlet property="TREENUTS" destination="8nr-D5-TH2" id="mAn-QV-sTb"/>
                         <outlet property="WHEAT" destination="1Xj-v6-Jnl" id="j3U-8G-cOy"/>
                         <outlet property="dropdown1" destination="WYN-8y-joD" id="tw1-bl-XXF"/>
-                        <outlet property="dropdown2" destination="hG4-JY-uZS" id="swb-ZW-6xu"/>
                         <outlet property="textbox1" destination="uFN-JY-yoF" id="70a-Ax-kJN"/>
-                        <outlet property="textbox2" destination="Nl7-LO-IaS" id="5no-Ci-bB2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -855,7 +828,6 @@
         <image name="yarbird.png" width="296" height="349"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Cdf-7b-c6p"/>
-        <segue reference="Ja1-fM-obs"/>
+        <segue reference="OAt-0d-rL4"/>
     </inferredMetricsTieBreakers>
 </document>

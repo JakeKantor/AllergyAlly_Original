@@ -30,6 +30,7 @@
 		2B9952EF1FB23CCC006C3548 /* white star.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9952EE1FB23CCB006C3548 /* white star.png */; };
 		2B9952F11FB23D7F006C3548 /* mellow mushroom.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B9952F01FB23D7E006C3548 /* mellow mushroom.png */; };
 		2BECBDAF200641EF00AF5604 /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BECBDAE200641EF00AF5604 /* SelectorViewController.swift */; };
+		5B57DBFC200E3AD2005B2638 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B57DBFB200E3AD2005B2638 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		2B9952EE1FB23CCB006C3548 /* white star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white star.png"; sourceTree = "<group>"; };
 		2B9952F01FB23D7E006C3548 /* mellow mushroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mellow mushroom.png"; sourceTree = "<group>"; };
 		2BECBDAE200641EF00AF5604 /* SelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorViewController.swift; sourceTree = "<group>"; };
+		5B57DBFB200E3AD2005B2638 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				2B9952D71FB0A0E6006C3548 /* Classes */,
 				2B4EB32B1FA6B2330082A548 /* AppDelegate.swift */,
 				2B4EB32D1FA6B2330082A548 /* ViewController.swift */,
+				5B57DBFB200E3AD2005B2638 /* Storyboard.storyboard */,
 				2BECBDAE200641EF00AF5604 /* SelectorViewController.swift */,
 				2B4EB32F1FA6B2330082A548 /* Main.storyboard */,
 				2B4EB3321FA6B2330082A548 /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 				2B4EB3311FA6B2330082A548 /* Main.storyboard in Resources */,
 				2B9952ED1FB23C15006C3548 /* yarbird.png in Resources */,
 				2B9952EF1FB23CCC006C3548 /* white star.png in Resources */,
+				5B57DBFC200E3AD2005B2638 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,10 +441,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FKY5PR7K4L;
+				DEVELOPMENT_TEAM = FJ6JBXE5C5;
 				INFOPLIST_FILE = "Allergy Ally/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Gulliver.Allergy-Ally";
+				PRODUCT_BUNDLE_IDENTIFIER = "ocm.Gulliver.Allergy-Ally.";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
@@ -453,10 +457,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FKY5PR7K4L;
+				DEVELOPMENT_TEAM = FJ6JBXE5C5;
 				INFOPLIST_FILE = "Allergy Ally/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Gulliver.Allergy-Ally";
+				PRODUCT_BUNDLE_IDENTIFIER = "ocm.Gulliver.Allergy-Ally.";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;

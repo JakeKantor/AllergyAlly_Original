@@ -34,7 +34,6 @@ class ViewController:  UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     
     
     @IBAction func peanutsButton(_ sender: Any) {
-        print("peanuts worked")
         peanutsIsPressed = true;
     }
     
@@ -188,11 +187,10 @@ class ViewController:  UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         // Do any additional setup after loading the view, typically from a nib.
         //Make Keybard disapear
         self.textbox1.delegate = self
-        self.textbox2.delegate = self
-        
-        
-        
+        //self.textbox2.delegate = self
 
+    
+        
     }
     
     
@@ -240,7 +238,6 @@ class ViewController:  UIViewController, UIPickerViewDelegate, UIPickerViewDataS
 //
 //
 //
-    
     
     
     
